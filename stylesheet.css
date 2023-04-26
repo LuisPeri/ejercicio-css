@@ -1,0 +1,29 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(194, 194, 229);
+}
+
+.main-items {
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rebeccapurple;
+}
+
+.aside-section {
+  align-items: flex-end;
+  flex-direction: column;
+  flex-wrap: 200;
+}
+
+.cv-main-img {
+  width: 400px;
+  height: 400px;
+}
+
+.mi-brillante-futuro-button {
+  align-content: flex-end;
+}
